@@ -8,9 +8,10 @@ export function NavBar() {
         // <!--header-->
         <nav class="navbar navbar-expand-md">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="/">
                     <img class="logo img-responsive" width="50" style={{borderRadius: '5px'}} src={'https://dl.dropbox.com/s/wx0fxpeuw0mxtqg/CHUKWUMA_.jpg?dl=0'} alt="Site-logo" />
                 </a>
+                <h1 className="title"><b>Chukwuma NWAUGHA </b></h1>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                     <span class="navbar-toggler-icon">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none"

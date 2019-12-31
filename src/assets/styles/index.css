@@ -89,7 +89,7 @@ nav .container-fluid {
 }
 
 .title {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 140%;
   letter-spacing: 0.03em;
   color: #5f5f5f;
@@ -135,7 +135,8 @@ nav .container-fluid {
 
 
 #btn-contact:hover {
-  box-shadow: 0px 12px 20px #665;
+  background: #333;
+  box-shadow: 0px 12px 20px #999;
 }
 
 /*portfolio*/
@@ -208,7 +209,7 @@ footer {
     margin: 0px;
     padding: 0px;
     color: #fff;
-    background: #eb2500;
+    background: cadetblue;
   }
 
   .social li {
@@ -218,6 +219,8 @@ footer {
   .social {
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: 10vh;
+    text-align: left;
   }
 
   #client-msg {
@@ -245,4 +248,20 @@ footer {
   background: cadetblue;
   box-shadow: 0px 16px 48px #ccc;
   /* rgba(234, 8, 8, 0.32); */
+}
+
+.about-header {
+    line-height: 140%;
+    letter-spacing: 0.03em;
+    color: #333;
+    font-weight: 400;
+  }
+
+.about-body {
+    text-align: left;
+    float: left;
+}
+
+.info{ 
+    width: 85%;
 }

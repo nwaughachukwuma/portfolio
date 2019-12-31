@@ -1,12 +1,13 @@
 import React from 'react'
 import Products from './products'
+import About from './about'
 
 export function Experience() {
 
     return (
         <div>
             {/* <!--Product-section--> */}
-            Add experience here and add products below
+            <About />
             <Products />
         </div>
     )

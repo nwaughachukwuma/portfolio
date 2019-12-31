@@ -8,13 +8,13 @@ export function Footer(){
         // <!--footer-->
         <footer>
             <div class="container-fluid padding footer-text">
-            <div class="row text-center">
-                <div class="col-12 ">
-                    <p>
-                        ©2020; Crafted with ❤️ by Chukwuma Nwaugha 
-                    </p>
+                <div class="row text-center">
+                    <div class="col-12 ">
+                        <p>
+                            ©2020 Crafted with ❤️ by Hbruw Inc.
+                        </p>
+                    </div>
                 </div>
-            </div>
             </div>
         </footer>
     )

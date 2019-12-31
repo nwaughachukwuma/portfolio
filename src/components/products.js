@@ -6,7 +6,7 @@ export function Products() {
 
     return (
         <div>
-            Add products here
+            {/* Add products here */}
         </div>
     )
 }
