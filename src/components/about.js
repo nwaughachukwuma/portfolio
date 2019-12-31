@@ -55,7 +55,7 @@ export function About() {
                                 </ul>
                             </li>
                             <li>
-                                Builds scalable web and mobile application<br/>
+                                Ability to build scalable web and mobile application<br/>
                             </li>
                             <li>
                                 <a target="_blank" href="https://medium.com/@c.nwaugha">Technical writer</a>
