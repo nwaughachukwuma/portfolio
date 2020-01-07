@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { Footer, NavBar, Hero, Experience } from 'components'
 import 'assets/styles/index.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 // https://zunaidaslam.com/about.html
 

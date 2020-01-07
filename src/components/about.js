@@ -1,8 +1,21 @@
-import React from 'react'
+import React, {useEffect, useCallback, useState} from 'react'
 
 
 export function About() {
 
+    const [screenWidth, setScreenWidth] = useState(null)
+    useEffect(() => {
+        window.addEventListener("resize", updateWindowDimensions);
+        return () => window.removeEventListener("resize", updateWindowDimensions)
+    })
+
+    const updateWindowDimensions = useCallback(
+        ({target: {innerWidth, innerHeight}}) => {
+            console.log('window dimension is: ', innerWidth,  innerHeight)
+            setScreenWidth(innerWidth)
+        },
+        [],
+    )
 
     return (
         <div className="container-fluid">
@@ -17,7 +30,7 @@ export function About() {
                     Finally, I love to read, go hiking & kayaking
                     </p>
                 </div>
-                <div className="col-sm col-md" style={{ textAlign: 'left'}}>
+                <div className="col-sm col-md" style={{ marginLeft: !!screenWidth && screenWidth <= 575? '10vh': '0.5vh', textAlign: 'left'}}>
                     {/* <!-- Experience --> */}
                     <h2 className="display-3 about-header"><small><span role="img" aria-label="trophy">🏆</span></small> Experience</h2>
                     <div className=" info">
