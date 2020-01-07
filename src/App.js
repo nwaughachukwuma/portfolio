@@ -3,6 +3,8 @@ import './App.css';
 import { Footer, NavBar, Hero, Experience } from 'components'
 import 'assets/styles/index.css';
 
+// https://zunaidaslam.com/about.html
+
 function App() {
   return (
     <div className="App">

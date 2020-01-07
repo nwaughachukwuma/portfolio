@@ -6,10 +6,10 @@ export function About() {
 
     return (
         <div className="container-fluid">
-            <div class="row no-gutters">
-                <div class="col-sm col-md" style={{marginLeft: '10vh', textAlign: 'left'}}>
-                    <h2 class="display-3 about-header">About me</h2>
-                    <p class="info">I am Chukwuma Nwaugha, a Product Engineer & Full stack Developer. Over the last 3yrs, I have gone from working with a Health Tech. company to a data and services company and, currently, to a ride-hailing company in Virginia USA. 
+            <div className="row no-gutters">
+                <div className="col-sm col-md" style={{marginLeft: '10vh', textAlign: 'left'}}>
+                    <h2 className="display-3 about-header">About me</h2>
+                    <p className="info">I am Chukwuma Nwaugha, a Product Engineer & Full stack Developer. Over the last 3yrs, I have gone from working with a Health Tech. company to a data and services company and, currently, to a ride-hailing company in Virginia USA. 
 
                     <br/><br/>I am up-to-date with current frontend, backend, and cloud technologies, and I have a keen understanding of key DevOps concepts such as CI/CD. 
                     <br /><br/>Fundamentally, I love supercharging day-to-day applications like Google Forms and Spreadsheets with Google Apps Script and Cloud Integrations.
@@ -17,10 +17,10 @@ export function About() {
                     Finally, I love to read, go hiking & kayaking
                     </p>
                 </div>
-                <div class="col-sm col-md" style={{ textAlign: 'left'}}>
+                <div className="col-sm col-md" style={{ textAlign: 'left'}}>
                     {/* <!-- Experience --> */}
-                    <h2 class="display-3 about-header">🏆 Experience</h2>
-                    <p class=" info">
+                    <h2 className="display-3 about-header"><small><span role="img" aria-label="trophy">🏆</span></small> Experience</h2>
+                    <div className=" info">
                         <b>Summary of my skills:</b><br/>
                         <ul>
                             <li>
@@ -50,7 +50,7 @@ export function About() {
                                 Solid understanding of application development (ground-up):<br/>
                                 <ul>
                                     <li>
-                                        Ability to support from requirements to shipping 🚀
+                                        Ability to support from requirements to shipping <span role="img" aria-label="rocket">🚀</span>
                                     </li>
                                 </ul>
                             </li>
@@ -58,10 +58,10 @@ export function About() {
                                 Ability to build scalable web and mobile application<br/>
                             </li>
                             <li>
-                                <a target="_blank" href="https://medium.com/@c.nwaugha">Technical writer</a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@c.nwaugha">Technical writer</a>
                             </li>
                         </ul>
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>

@@ -7,11 +7,11 @@ export function Footer(){
     return (
         // <!--footer-->
         <footer>
-            <div class="container-fluid padding footer-text">
-                <div class="row text-center">
-                    <div class="col-12 ">
+            <div className="container-fluid padding footer-text">
+                <div className="row text-center">
+                    <div className="col-12 ">
                         <p>
-                            ©2020 Crafted with ❤️ by Hbruw Inc.
+                            ©2020 Crafted with <span role="img" aria-label="heart">❤️</span> by Hbruw Inc.
                         </p>
                     </div>
                 </div>
