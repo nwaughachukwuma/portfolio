@@ -38,22 +38,38 @@ const carouselItems = [
         productPage: 'https://msdat.fmohconnect.gov.ng/central_analytics'
     },
     {
-        imgSrc: "https://dl.dropbox.com/s/r9dhm7nm8b4a7hc/Screenshot%202020-01-07%20at%2017.29.36.png?dl=0",
+        imgSrc: "https://dl.dropbox.com/s/24tefxr9x1gj3bd/default-col.png?dl=0",
         imgAlr: "Fifth slide",
+        captionHeader: "React Native Starter",
+        captionBody: "An opinionated starter kit for react native using TypeScript",
+        textColor: '#000',
+        productPage: 'https://github.com/nwaughachukwuma/react-native-starter'
+    },
+    {
+        imgSrc: "https://dl.dropbox.com/s/blmpt3l0opsclg8/dark-col.png?dl=0",
+        imgAlr: "Sixth slide",
+        captionHeader: "React Native Starter",
+        captionBody: "Aiming to make it easy for developers to go from product concept to implemtation",
+        textColor: '#FFF',
+        productPage: 'https://github.com/nwaughachukwuma/react-native-starter'
+    },
+    {
+        imgSrc: "https://dl.dropbox.com/s/r9dhm7nm8b4a7hc/Screenshot%202020-01-07%20at%2017.29.36.png?dl=0",
+        imgAlr: "Seventh slide",
         captionHeader: "EventsApp (Beta)",
         captionBody: "EventsApp is a platform that aims to enhance the entire experience of creating and managing events",
         textColor: '#000'
     },
     {
         imgSrc: "https://dl.dropbox.com/s/gmmvf6cg2h12o0t/Screenshot%202020-01-07%20at%2017.29.55.png?dl=0",
-        imgAlr: "Sixth slide",
+        imgAlr: "Eight slide",
         captionHeader: "EventsApp (Beta)",
         captionBody: "EventsApp is a platform that aims to enhance the entire experience of creating and managing events",
         textColor: '#000'
     },
     {
         imgSrc: "https://dl.dropbox.com/s/17msex5cc1ltsf2/Screenshot%202020-01-07%20at%2017.37.25.png?dl=0",
-        imgAlr: "Seventh slide",
+        imgAlr: "Night slide",
         captionHeader: "DHIS2 import tracker",
         captionBody: "A simple web tool that aims to optimize data entry experience on DHIS2.",
         textColor: '#FFF',
@@ -61,7 +77,7 @@ const carouselItems = [
     },
     {
         imgSrc: "https://dl.dropbox.com/s/ko5zw0vb7sm8e41/Screenshot%202020-01-07%20at%2023.27.08.png?dl=0",
-        imgAlr: "Eight slide",
+        imgAlr: "Tenth slide",
         captionHeader: "DHIS2 import tracker",
         captionBody: "Focuses on reducing the time and efforts required to clean and convert data to the appropriate JSON format before uploading to a DHIS2 instance",
         textColor: '#FFF',
@@ -83,7 +99,7 @@ export function Products() {
         <Container>
              {/* Add products here */}
             <Row className="justify-content-md-center">
-                <h2 className="display-3 about-header">Some Past Projects</h2>
+                <h2 className="display-3 about-header">Recent Projects</h2>
             </Row>
             <Row className="justify-content-md-center" style={{maxHeight: '10%'}}>
                 <Col sm={8} md={8}>
@@ -99,7 +115,7 @@ export function Products() {
                                     src={el.imgSrc}
                                     alt={el.imgAlt}  
                                     width="700"
-                                    height="300"                 
+                                    height="350"                 
                                 />
                                 {/* <Carousel.Caption style={{cursor: 'pointer'}} onClick={()=>{ 
                                     
