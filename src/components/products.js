@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Carousel, Container, Row, Col } from 'react-bootstrap'
+import { Carousel, Container, Row, Col, Tooltip, OverlayTrigger } from 'react-bootstrap'
 import uuidV4 from 'uuid/v4'
 
 
@@ -85,7 +85,7 @@ const carouselItems = [
     },
 ]
 
-export function Products() {
+export function Products(props) {
 
     const [index, setIndex] = useState(0);
     const [direction, setDirection] = useState(null);
@@ -107,7 +107,13 @@ export function Products() {
                         {carouselItems.map(el => (
                             <Carousel.Item key={uuidV4()}>
                                 <a href={el.productPage} target="_blank" rel="noopener noreferrer">
-                                    <h3 style={{}}>{el.captionHeader}</h3>
+                                    <OverlayTrigger
+                                        placement="top"
+                                        delay={{ show: 150, hide: 400 }}
+                                        overlay={<Tooltip {...props}>Click me</Tooltip>}
+                                    >
+                                        <h3 style={{}}>{el.captionHeader}</h3>
+                                    </OverlayTrigger>
                                 </a>
                                 <label style={{color: '#000'}}>{el.captionBody}</label>
                                 <img

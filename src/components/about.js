@@ -31,10 +31,10 @@ export function About() {
                     </p>
                 </div>
                 <div className="col-sm col-md" style={{ marginLeft: !!screenWidth && screenWidth <= 575? '10vh': '0.5vh', textAlign: 'left'}}>
-                    {/* <!-- Experience --> */}
-                    <h2 className="display-3 about-header"><small><span role="img" aria-label="trophy">🏆</span></small> Experience</h2>
+                    {/* <!-- Experience 🏆--> */}
+                    <h2 className="display-3 about-header"><small><span role="img" aria-label="trophy">👨‍💻</span></small> Experience</h2>
                     <div className=" info">
-                        <b>Summary of my skills:</b><br/>
+                        <b>Summary of skills:</b><br/>
                         <ul>
                             <li>
                                 5+ years experience and 20+ projects completed <br/>
