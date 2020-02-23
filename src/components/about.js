@@ -22,7 +22,7 @@ export function About() {
             <div className="row no-gutters">
                 <div className="col-sm col-md" style={{marginLeft: '10vh', textAlign: 'left'}}>
                     <h2 className="display-3 about-header">About me</h2>
-                    <p className="info">I am Chukwuma Nwaugha, a Product Engineer & Full stack Developer. Over the last 3yrs, I have gone from working with a Health Tech. company to a data and services company and, currently, to a ride-hailing company in Virginia USA. 
+                    <p className="info">I am Chuks, a Product Engineer and a Full stack Developer with broad experience in delivering first class React & React Native applications. Over the last 3yrs, I have gone from working with a Health Tech. company to a data and services company and, currently, to a ride-hailing company in Virginia USA. 
 
                     <br/><br/>I am up-to-date with current frontend, backend and cloud technologies, and my experience enables me to build prototypes quickly. I also have a keen understanding of key DevOps concepts such as CI/CD. 
                     <br /><br/>Fundamentally, I love supercharging day-to-day applications like Google Forms and Spreadsheets with Google Apps Script and Cloud Integrations.
