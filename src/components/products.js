@@ -5,6 +5,14 @@ import uuidV4 from 'uuid/v4'
 
 const carouselItems = [
     {
+        imgSrc: "https://dl.dropbox.com/s/zkz5smabj786s8k/Screenshot%202020-08-19%20at%2013.15.07.png?dl=0",
+        imgAlr: "Zeroth slide",
+        captionHeader: "Lumiere",
+        captionBody: "Lumiere is a foremost Video Streaming On Demand platform",
+        textColor: '#F00',
+        productPage: 'https://player.lumiere.is/c/latitude'
+    },
+    {
         imgSrc: "https://dl.dropbox.com/s/9wdy1nx5of5xjtf/Screenshot%202020-01-07%20at%2017.11.31.png?dl=0",
         imgAlr: "First slide",
         captionHeader: "Hich App",
@@ -97,11 +105,11 @@ export function Products(props) {
 
     return (
         <Container>
-             {/* Add products here */}
+            {/* Add products here */}
             <Row className="justify-content-md-center">
                 <h2 className="display-3 about-header">Recent Projects</h2>
             </Row>
-            <Row className="justify-content-md-center" style={{maxHeight: '10%'}}>
+            <Row className="justify-content-md-center" style={{ maxHeight: '10%' }}>
                 <Col sm={8} md={8}>
                     <Carousel activeIndex={index} direction={direction} onSelect={handleSelect}>
                         {carouselItems.map(el => (
@@ -115,13 +123,13 @@ export function Products(props) {
                                         <h3 style={{}}>{el.captionHeader}</h3>
                                     </OverlayTrigger>
                                 </a>
-                                <label style={{color: '#000'}}>{el.captionBody}</label>
+                                <label style={{ color: '#000' }}>{el.captionBody}</label>
                                 <img
                                     className="img-responsive"
                                     src={el.imgSrc}
-                                    alt={el.imgAlt}  
+                                    alt={el.imgAlt}
                                     width="700"
-                                    height="350"                 
+                                    height="350"
                                 />
                                 {/* <Carousel.Caption style={{cursor: 'pointer'}} onClick={()=>{ 
                                     
