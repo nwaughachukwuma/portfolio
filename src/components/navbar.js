@@ -33,7 +33,7 @@ export function NavBar() {
                             href="about.html">About</a>
                         </li> */}
                         <li className="nav-item ">
-                            <a className="nav-link d-flex justify-content-center align-items-center" id="contact-button" href="/">
+                            <a className="nav-link d-flex justify-content-center align-items-center" id="contact-button" href="/portfolio">
                                 Welcome
                             </a>
                         </li>
