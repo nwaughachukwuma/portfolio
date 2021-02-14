@@ -11,7 +11,7 @@ export function Footer(){
                 <div className="row text-center">
                     <div className="col-12 ">
                         <p>
-                            ©2020 Crafted with <span role="img" aria-label="heart">❤️</span> by Hbruw Inc.
+                            ©2021 Crafted with <span role="img" aria-label="heart">❤️</span> &nbsp; by Chuks.
                         </p>
                     </div>
                 </div>
