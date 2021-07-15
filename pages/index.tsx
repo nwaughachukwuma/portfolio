@@ -1,5 +1,13 @@
+import { Footer, NavBar, Hero, Experience } from 'components/sections'
+
 function HomePage() {
-    return <div>Welcome to Next.js! </div>
+    return <div className="app">
+            <NavBar />
+            <Hero />
+            <Experience />
+            <Footer />
+        </div>
+    
 }
 
 export default HomePage
