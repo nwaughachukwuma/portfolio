@@ -1,4 +1,3 @@
-import React from 'react'
 import Products from './products'
 import About from './about'
 

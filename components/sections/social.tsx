@@ -1,6 +1,3 @@
-import React from 'react'
-
-
 export function Social() {
     return (
         // <!-- social-media-icon-list-svg -->
