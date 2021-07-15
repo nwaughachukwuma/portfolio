@@ -1,4 +1,5 @@
-// import { ReactComponent as Logo } from 'assets/images/logo.svg';
+import Image from 'next/image'
+
 export function NavBar() {
 
     return (
@@ -6,7 +7,7 @@ export function NavBar() {
         <nav className="navbar navbar-expand-md">
             <div className="container-fluid">
                 <a className="navbar-brand" href="/">
-                    <img className="logo img-responsive" width="50" style={{ borderRadius: '5px' }} src={'https://dl.dropbox.com/s/wx0fxpeuw0mxtqg/CHUKWUMA_.jpg?dl=0'} alt="Site-logo" />
+                    <Image className="logo img-responsive rounded clearfix"  width="50" height="50" src="/assets/images/dev_avatar.png" alt="Dev Avatar" />
                 </a>
                 <h1 className="title"><b>Chukwuma NWAUGHA </b></h1>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
