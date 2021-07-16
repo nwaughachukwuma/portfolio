@@ -1,3 +1,4 @@
+import React from 'react'
 import Social from './social'
 
 export function Hero() {

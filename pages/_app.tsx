@@ -1,3 +1,4 @@
+import React from 'react'
 import '../styles/bootstrap.css'
 import '../styles/index.css'
 import '../styles/_app.css';

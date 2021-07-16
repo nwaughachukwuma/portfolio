@@ -1,4 +1,4 @@
-import { useEffect, useCallback, useState } from 'react'
+import React, { useEffect, useCallback, useState } from 'react'
 import '../../styles/about.module.css'
 
 export function About() {

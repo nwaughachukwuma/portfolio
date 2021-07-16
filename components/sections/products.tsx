@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import { Carousel, Container, Row, Col, Tooltip, OverlayTrigger } from 'react-bootstrap'
 import uuidV4 from 'uuid/v4'
 import { carouselItems } from '../../utils/constants'

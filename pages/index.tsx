@@ -1,3 +1,4 @@
+import React from 'react'
 import { Footer, NavBar, Hero, Experience } from 'components/sections'
 
 function HomePage() {
