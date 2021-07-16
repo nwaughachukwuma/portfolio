@@ -1,7 +1,6 @@
 import React from 'react'
 import '../styles/bootstrap.css'
-import '../styles/index.css'
-import '../styles/_app.css';
+import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
     return <Component {...pageProps} />
