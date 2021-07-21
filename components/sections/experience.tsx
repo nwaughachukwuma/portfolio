@@ -1,5 +1,5 @@
 import React from 'react'
-import Products from './products'
+import RecentProjects from './recentProjects'
 import About from './about'
 
 export function Experience() {
@@ -8,7 +8,7 @@ export function Experience() {
         <div>
             {/* <!--Product-section--> */}
             <About />
-            <Products />
+            <RecentProjects />
         </div>
     )
 }

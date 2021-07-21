@@ -9,6 +9,7 @@ export function Products(props) {
     const [direction, setDirection] = useState(null);
 
     const handleSelect = (selectedIndex, e) => {
+        console.log({selectedIndex})
         setIndex(selectedIndex);
         setDirection(e?.direction);
     };
@@ -37,7 +38,7 @@ export function Products(props) {
                                 <img
                                     className="img-responsive"
                                     src={el.imgSrc}
-                                    alt={el.imgAlt}
+                                    alt={el.imgAlr}
                                     width="700"
                                     height="350"
                                 />
