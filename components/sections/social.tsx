@@ -3,7 +3,7 @@ import React from 'react'
 export function Social() {
     return (
         // <!-- social-media-icon-list-svg -->
-        <ul className="flex items-baseline h-40 space-y-4 sm:space-y-8 sm:flex-col justify-evenly w-30">
+        <ul className="flex items-baseline space-y-4 h-14 sm:h-40 sm:space-y-8 sm:flex-col justify-evenly w-30">
             <li className="">
                 <a href="https://twitter.com/ChukwumaNwaugha" target="_blank" rel="noopener noreferrer">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

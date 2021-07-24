@@ -5,7 +5,7 @@ export function NavBar() {
 
     return (
         // <!--header-->
-        <nav className="navbar navbar-expand-md">
+        <nav className="">
             <div className="flex justify-between">
                 <div className="flex items-center justify-center">
                     <a className="m-4" href="/">
@@ -35,6 +35,9 @@ export function NavBar() {
                                 href="about.html">About</a>
                             </li>
                         */}
+                        <div className="m-4 sm:hidden">
+                            <Image height="60" width="60" objectFit="contain" objectPosition="center" src="/assets/images/coder.svg" alt="Coder illustration, courtesy https://undraw.co" />
+                        </div>
                         <li className="hidden text-lg text-white bg-indigo-600 py-7 px-9 text-bold sm:block">
                             <a className="flex items-center justify-center" id="contact-button" href="/portfolio">
                                 Welcome
