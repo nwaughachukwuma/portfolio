@@ -6,12 +6,14 @@ export function NavBar() {
     return (
         // <!--header-->
         <nav className="navbar navbar-expand-md">
-            <div className="container-fluid">
-                <a className="navbar-brand" href="/">
-                    <Image className="logo img-responsive rounded clearfix"  width="50" height="50" src="/assets/images/dev_avatar.png" alt="Dev Avatar" />
-                </a>
-                <h1 className="title"><b>Chukwuma NWAUGHA </b></h1>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <div className="flex justify-between">
+                <div className="flex items-center justify-center">
+                    <a className="m-4" href="/">
+                        <Image className="rounded-md"  width="50" height="50" src="/assets/images/dev_avatar.png" alt="Dev Avatar" />
+                    </a>
+                    <h1 className="-mt-2 text-gray-900 text-bold text-opacity-80"><b>Chukwuma NWAUGHA </b></h1>
+                </div>
+                {/* <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                     <span className="navbar-toggler-icon">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -20,18 +22,20 @@ export function NavBar() {
                                 fill="#2B2F34" />
                         </svg>
                     </span>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarResponsive">
-                    <ul className="navbar-nav ml-auto ">
+                </button> */}
+                <div className="navbar-collapse" id="navbarResponsive">
+                    <ul className="m-auto">
                         {/* <li class="nav-item d-flex justify-content-center align-items-center">
                             <a class="active nav-link active"
                             id="home" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item d-flex justify-content-center align-items-center">
-                            <a class="nav-link" id="about"
-                            href="about.html">About</a>
-                        </li> */}
-                        <li className="nav-item ">
+                            </li>
+
+                            <li className="nav-item d-flex justify-content-center align-items-center">
+                                <a className="nav-link" id="about"
+                                href="about.html">About</a>
+                            </li>
+                        */}
+                        <li className="text-lg text-white bg-indigo-600 py-7 px-9 text-bold">
                             <a className="nav-link d-flex justify-content-center align-items-center" id="contact-button" href="/portfolio">
                                 Welcome
                             </a>

@@ -16,11 +16,11 @@ export function About() {
     )
 
     return (
-        <div className="container-fluid">
-            <div className="row no-gutters">
+        <div className="block mt-12">
+            <div className="grid grid-flow-row grid-cols-2 col-auto space-x-5 gap-x-10">
                 <div className="col-sm col-md" style={{ marginLeft: '10vh', textAlign: 'left' }}>
-                    <h2 className="display-3 about-header">About me</h2>
-                    <p className="info">I am Chuks, a Product Engineer and a Full stack Developer with broad experience in delivering first class Vue, React & React Native applications. Over the last 5yrs, I have worked with a Health Tech company, a data & services company, with Hich Inc, a ride-hailing company in Virginia USA, and currently, Latitude Inc. a company that runs a foremost Video Stream on Demand platform in Massachusetts USA.
+                    <h2 className="mb-4 text-5xl font-normal text-grey-900">About me</h2>
+                    <p className="text-gray-600 text-opacity-95">I am Chuks, a Product Engineer and a Full stack Developer with broad experience in delivering first class Vue, React & React Native applications. Over the last 5yrs, I have worked with a Health Tech company, a data & services company, with Hich Inc, a ride-hailing company in Virginia USA, and currently, Latitude Inc. a company that runs a foremost Video Stream on Demand platform in Massachusetts USA.
 
                         <br /><br />I am up-to-date with current frontend, backend and cloud technologies, and my experience enables me to build prototypes quickly. In cruise mode, I love to supercharge day-to-day G-Suite Apps with Google Apps Script & Cloud Integrations, and finding the best way to optimize streaming data using Message Queues and ETLs.
                         <br /> <br />
@@ -29,8 +29,8 @@ export function About() {
                 </div>
                 <div className="col-sm col-md" style={{ marginLeft: !!screenWidth && screenWidth <= 575 ? '10vh' : '0.5vh', textAlign: 'left' }}>
                     {/* <!-- Experience 🏆--> */}
-                    <h2 className="display-3 about-header"><small><span role="img" aria-label="trophy">👨‍💻</span></small> Experience</h2>
-                    <div className=" info">
+                    <h2 className="mb-4 text-5xl font-normal text-grey-900"><small><span role="img" aria-label="trophy">👨‍💻</span></small> Experience</h2>
+                    <div className="text-gray-600 text-opacity-95">
                         <b>Summary of skills:</b><br />
                         <ul>
                             <li>
