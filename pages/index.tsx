@@ -2,10 +2,12 @@ import React from 'react'
 import { Footer, NavBar, Hero, Experience } from 'components/sections'
 
 function HomePage() {
-    return <div className="app font-lato antialiased">
-            <NavBar />
-            <Hero />
-            <Experience />
+    return <div className="w-screen antialiased app font-lato">
+            <div className="w-full pb:3 sm:pb-8 hero-bg">
+                <NavBar />
+                <Hero />
+            </div>
+            {/* <Experience /> */}
             <Footer />
         </div>
     

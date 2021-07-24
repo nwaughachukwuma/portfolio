@@ -18,9 +18,9 @@ export function About() {
     return (
         <div className="block mt-12">
             <div className="grid grid-flow-row grid-cols-2 col-auto space-x-5 gap-x-10">
-                <div className="col-sm col-md" style={{ marginLeft: '10vh', textAlign: 'left' }}>
+                <div className="ml-20 col-sm col-md">
                     <h2 className="mb-4 text-5xl font-normal text-grey-900">About me</h2>
-                    <p className="text-gray-600 text-opacity-95">I am Chuks, a Product Engineer and a Full stack Developer with broad experience in delivering first class Vue, React & React Native applications. Over the last 5yrs, I have worked with a Health Tech company, a data & services company, with Hich Inc, a ride-hailing company in Virginia USA, and currently, Latitude Inc. a company that runs a foremost Video Stream on Demand platform in Massachusetts USA.
+                    <p className="text-gray-700">I am Chuks, a Product Engineer and a Full stack Developer with broad experience in delivering first class Vue, React & React Native applications. Over the last 5yrs, I have worked with a Health Tech company, a data & services company, with Hich Inc, a ride-hailing company in Virginia USA, and currently, Latitude Inc. a company that runs a foremost Video Stream on Demand platform in Massachusetts USA.
 
                         <br /><br />I am up-to-date with current frontend, backend and cloud technologies, and my experience enables me to build prototypes quickly. In cruise mode, I love to supercharge day-to-day G-Suite Apps with Google Apps Script & Cloud Integrations, and finding the best way to optimize streaming data using Message Queues and ETLs.
                         <br /> <br />
@@ -30,47 +30,48 @@ export function About() {
                 <div className="col-sm col-md" style={{ marginLeft: !!screenWidth && screenWidth <= 575 ? '10vh' : '0.5vh', textAlign: 'left' }}>
                     {/* <!-- Experience 🏆--> */}
                     <h2 className="mb-4 text-5xl font-normal text-grey-900"><small><span role="img" aria-label="trophy">👨‍💻</span></small> Experience</h2>
-                    <div className="text-gray-600 text-opacity-95">
-                        <b>Summary of skills:</b><br />
-                        <ul>
+                    <div className="text-gray-700">
+                        <b>Summary of skills:</b>
+                        <br/>
+                        <ol type="a">
                             <li>
-                                5+ years experience and 20+ projects completed <br />
+                                👉 5+ years experience and 20+ projects completed <br />
                             </li>
                             <li>
-                                Good communication skills in native English <br />
+                                👉 Good communication skills in native English <br />
                             </li>
                             <li>
-                                Practical knowledge in Requirement Analysis and Product backlog management<br />
+                                👉 Practical knowledge in Requirement Analysis and Product backlog management<br />
                             </li>
                             <li>
-                                Readily available; 6 days/week <br />
+                                👉 Readily available; 6 days/week <br />
                             </li>
                             <li>
-                                Application of Agile principles to software development: <br />
-                                <ul>
+                                👉 Application of Agile principles to software development: <br />
+                                <ul className="ml-10">
                                     <li>
-                                        Creating intuitive and shippable products at each point
+                                        - creating intuitive and shippable products at each point
                                     </li>
                                     <li>
-                                        Good collaboration with Designers and Developers
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                Solid understanding of application development (ground-up):<br />
-                                <ul>
-                                    <li>
-                                        Ability to support from requirements to shipping <span role="img" aria-label="rocket">🚀</span>
+                                        - good collaboration with Designers and Developers
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                Ability to build scalable web and mobile application<br />
+                                👉 Solid understanding of application development (ground-up):<br />
+                                <ul className="ml-10">
+                                    <li>
+                                        - ability to support from requirements to shipping <span role="img" aria-label="rocket">🚀</span>
+                                    </li>
+                                </ul>
                             </li>
                             <li>
-                                <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@c.nwaugha">Technical writer</a>
+                               👉 Ability to build scalable web and mobile application<br />
                             </li>
-                        </ul>
+                            <li>
+                                👉 <a role="link" target="_blank" rel="noopener noreferrer" href="https://medium.com/@c.nwaugha">Technical writer</a>
+                            </li>
+                        </ol>
                     </div>
                 </div>
             </div>

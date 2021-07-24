@@ -35,8 +35,8 @@ export function NavBar() {
                                 href="about.html">About</a>
                             </li>
                         */}
-                        <li className="text-lg text-white bg-indigo-600 py-7 px-9 text-bold">
-                            <a className="nav-link d-flex justify-content-center align-items-center" id="contact-button" href="/portfolio">
+                        <li className="hidden text-lg text-white bg-indigo-600 py-7 px-9 text-bold sm:block">
+                            <a className="flex items-center justify-center" id="contact-button" href="/portfolio">
                                 Welcome
                             </a>
                         </li>
