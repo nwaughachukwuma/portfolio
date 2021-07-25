@@ -2,8 +2,8 @@ name: Deploy to pages
 on:
   push:
     branches: [main]
-    tags:
-      - "deploy-*"
+    # tags:
+    #   - "deploy-*"
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -21,14 +21,19 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Install packages
-        run: npm ci
+      # - uses: borales/actions-yarn@v2.3.0
+      #   with:
+      #     cmd: install
+
+      - uses: bahmutov/npm-install@v1
+      # - name: Install packages
+      #   run: npm ci
 
       - name: Build project
-        run: npm run build
+        run: yarn build
 
       - name: Export static files
-        run: npm run export
+        run: yarn export
 
       - name: Add .nojekyll file
         run: touch ./out/.nojekyll
