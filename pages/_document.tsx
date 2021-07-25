@@ -1,5 +1,6 @@
 import React from 'react'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
+import { prefix } from '../utils/prefix'
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -11,7 +12,8 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link rel="shortcut icon" href="/favicon.png" />
+          <title>Chukwuma Nwaugha</title>
+          <link rel="shortcut icon" href={`${prefix}/favicon.png`} />
           <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></meta>
         </Head>
         <body>
