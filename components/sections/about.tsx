@@ -1,4 +1,4 @@
-import React, { useEffect, useCallback, useState } from 'react'
+import React from 'react'
 
 export function About() {
     return (
@@ -19,7 +19,7 @@ export function About() {
                     <div className="text-gray-700">
                         <b>Summary of skills:</b>
                         <br/>
-                        <ol type="a" className="text-sm sm:text-md">
+                        <ul className="text-sm sm:text-md">
                             <li>
                                 👉 5+ years experience and 20+ projects completed <br />
                             </li>
@@ -39,7 +39,7 @@ export function About() {
                                         - creating intuitive and shippable products at each point
                                     </li>
                                     <li>
-                                        - good collaboration with Designers and Developers
+                                        - good uollaboration with Designers and Developers
                                     </li>
                                 </ul>
                             </li>
@@ -57,7 +57,7 @@ export function About() {
                             <li>
                                 👉 <a role="link" target="_blank" rel="noopener noreferrer" href="https://medium.com/@c.nwaugha">Technical writer</a>
                             </li>
-                        </ol>
+                        </ul>
                     </div>
                 </div>
             </div>
