@@ -2,12 +2,16 @@ name: Deploy to pages
 on:
   push:
     branches: [main]
+    tags:
+      - "deploy-*"
 jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
       matrix:
         node-version: [14.x]
+    env:
+      NEXT_PUBLIC_BASE_PATH: /portfolio
     steps:
       - name: Get files
         uses: actions/checkout@v2
@@ -28,7 +32,7 @@ jobs:
 
       - name: Add .nojekyll file
         run: touch ./out/.nojekyll
-        
+
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
