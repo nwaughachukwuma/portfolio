@@ -1,7 +1,7 @@
 name: Deploy to pages
 on:
   push:
-    branches: [main]
+    branches: [master]
     # tags:
     #   - "deploy-*"
 jobs:
@@ -21,13 +21,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      # - uses: borales/actions-yarn@v2.3.0
-      #   with:
-      #     cmd: install
-
       - uses: bahmutov/npm-install@v1
-      # - name: Install packages
-      #   run: npm ci
 
       - name: Build project
         run: yarn build
