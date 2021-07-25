@@ -16,7 +16,7 @@ export function Hero() {
                     <p id="client-msg" className="mt-3 mb-5 text-gray-900 text-md sm:text-lg w-80">
                         I enjoy being part of the entire product development experience from requirement gathering <span role="img" aria-label="note">📋</span> to deployment 🚀🎉
                     </p>
-                    <a href="mailto:c.nwaugha@gmail.com" target="_blank" rel="noopener noreferrer" role="button" id="btn-contact" className="w-full px-5 py-3 font-semibold text-center text-white uppercase bg-indigo-600 rounded-md shadow-md sm:w-40 text-ms">
+                    <a href="mailto:c.nwaugha@gmail.com" target="_blank" rel="noopener noreferrer" role="button" id="btn-contact" className="flex items-center justify-center w-full px-5 py-3 font-semibold text-white uppercase bg-indigo-600 rounded-md shadow-lg sm:w-40 text-ms">
                         Get In Touch
                     </a>
                     <div className="h-auto pt-0.5 w-full sm:w-36 sm:hidden">

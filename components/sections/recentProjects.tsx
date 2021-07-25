@@ -14,7 +14,7 @@ export function Products() {
     return (
         <div className="flex flex-col items-center justify-center">
             <br />
-            <h1 className="mt-5 mb-0.5 text-4xl sm:text-5xl font-normal text-grey-900">Recent Projects</h1>
+            <h1 className="mt-5 mb-0.5 text-4xl sm:text-5xl font-normal text-grey-900">Past Projects</h1>
             
             <div className="flex justify-center p-5 mx-10 sm:mx-40">
                 <Carousel className="w-60 sm:w-full h-auto max-w-[620px]" autoPlay infiniteLoop interval={5000} onChange={handleSelect} centerMode centerSlidePercentage={100} dynamicHeight={false}>
