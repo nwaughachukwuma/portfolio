@@ -1,11 +1,10 @@
 import React from 'react'
 
-
 export function Social() {
     return (
         // <!-- social-media-icon-list-svg -->
-        <ul className="offset-md-1 social col-md-1 col-sm-11">
-            <li className=" list-inline-item">
+        <ul className="flex items-baseline space-y-4 h-14 sm:h-40 sm:space-y-8 sm:flex-col justify-evenly w-30">
+            <li className="">
                 <a href="https://twitter.com/ChukwumaNwaugha" target="_blank" rel="noopener noreferrer">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fillRule="evenodd" clipRule="evenodd"
@@ -15,7 +14,7 @@ export function Social() {
                 </a>
             </li>
 
-            <li className=" list-inline-item">
+            <li className="">
                 <a href="https://github.com/nwaughachukwuma" target="_blank" rel="noopener noreferrer">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fillRule="evenodd" clipRule="evenodd"
@@ -25,7 +24,7 @@ export function Social() {
                 </a>
             </li>
 
-            <li className=" list-inline-item">
+            <li className="">
                 <a href="https://www.linkedin.com/in/cpnwaugha" target="_blank" rel="noopener noreferrer">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fillRule="evenodd" clipRule="evenodd"
