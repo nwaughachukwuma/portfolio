@@ -2,8 +2,8 @@ name: Deploy to pages
 on:
   push:
     branches: [master]
-    # tags:
-    #   - "deploy-*"
+    tags:
+      - "deploy-*"
 jobs:
   build:
     runs-on: ubuntu-latest

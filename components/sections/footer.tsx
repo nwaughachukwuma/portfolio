@@ -6,7 +6,7 @@ export function Footer() {
         // <!--footer-->
         <footer>
             <p className="font-serif text-center footer">
-                ©2021 Crafted with <span role="img" aria-label="heart">❤️</span> &nbsp;by Chuks.
+                ©2021 Crafted with <span role="img" aria-label="heart">❤️</span> &nbsp;by Chuks. [rework in-progress]
             </p>
         </footer>
     )
