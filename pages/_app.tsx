@@ -1,12 +1,8 @@
 import React from 'react'
-import '../styles/tailwind.css'
+import '../styles/bootstrap.css'
+import '../styles/globals.css'
 
-type Props = {
-    Component: any
-    pageProps: any
-}
-
-function MyApp({ Component, pageProps }: Props) {
+function MyApp({ Component, pageProps }) {
     return <Component {...pageProps} />
 }
 
