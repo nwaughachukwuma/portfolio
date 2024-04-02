@@ -8,3 +8,10 @@
     /* @apply bg-gradient-to-r from-indigo-200 via-blue-200 to-purple-50; */
   }
 }
+
+body {
+  @apply bg-gradient-to-r from-indigo-200 via-blue-200 to-purple-50;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
