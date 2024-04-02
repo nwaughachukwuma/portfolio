@@ -11,9 +11,6 @@ export function Hero() {
                     <h1 className="text-2xl font-bold leading-snug tracking-wider text-gray-900 sm:text-4xl"><span role="img" aria-label="waving hands">👋🏽</span> Hi,
                         I Love to build cool stuff.
                     </h1>
-                    <a href="mailto:c.nwaugha@gmail.com" target="_blank" rel="noopener noreferrer" role="button" id="btn-contact" className="flex items-center justify-center w-full px-5 py-3 font-semibold text-white uppercase bg-indigo-600 rounded-md shadow-lg sm:w-40 text-ms">
-                        Get In Touch
-                    </a>
                     <div className="h-auto pt-0.5 w-full sm:w-36 sm:hidden">
                         <Social  />
                     </div>

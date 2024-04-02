@@ -5,6 +5,6 @@
 
 @layer components {
   .hero-bg {
-    @apply bg-gradient-to-r from-indigo-200 via-blue-200 to-purple-50;
+    /* @apply bg-gradient-to-r from-indigo-200 via-blue-200 to-purple-50; */
   }
 }
