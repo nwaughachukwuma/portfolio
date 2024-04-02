@@ -1,34 +1,25 @@
 import React from 'react'
 import Social from './social'
-import { prefix } from '../../utils/prefix';
 
 export function Hero() {
     return (
-        <div className="block w-full px-5 mt-2 sm:px-0 sm:w-full">
-            <div className="flex flex-col sm:flex-row sm:justify-between">
-                <div className="grid sm:mx-auto place-content-center sm:ml-20">
-                    <h1 className="mb-2 text-xl font-medium text-gray-900">Product Engineer | Full stack Developer </h1>
-                    <h1 className="text-2xl font-bold leading-snug tracking-wider text-gray-900 sm:text-4xl"><span role="img" aria-label="waving hands">👋🏽</span> Hi,
+        <div className="block mt-2">
+            <div className="flex justify-between">
+                <div className="grid" style={{ marginLeft: '10vh', textAlign: 'left' }}>
+                    <h1 className="font-medium text-xl text-gray-600 mb-2">Product Engineer | Full stack Developer </h1>
+                    <h1 className="font-bold text-gray-900 text-5xl tracking-wider leading-snug"><span role="img" aria-label="waving hands">👋🏽</span> Hi,
                         I Love to build stuff <br />
                         that improve the overall <br />
                         experience of users
                     </h1>
-                    <p id="client-msg" className="mt-3 mb-5 text-gray-900 text-md sm:text-lg w-80">
+                    <p id="client-msg" className="w-80 mt-3 mb-6 text-gray-600 text-opacity-95">
                         I enjoy being part of the entire product development experience from requirement gathering <span role="img" aria-label="note">📋</span> to deployment 🚀🎉
                     </p>
-                    <a href="mailto:c.nwaugha@gmail.com" target="_blank" rel="noopener noreferrer" role="button" id="btn-contact" className="flex items-center justify-center w-full px-5 py-3 font-semibold text-white uppercase bg-indigo-600 rounded-md shadow-lg sm:w-40 text-ms">
+                    <a href="mailto:c.nwaugha@gmail.com" target="_blank" rel="noopener noreferrer" role="button" id="btn-contact" className="bg-blue-400 shadow-md py-3 px-5 w-40 rounded-sm text-center text-white font-semibold text-ms uppercase">
                         Get In Touch
                     </a>
-                    <div className="h-auto pt-0.5 w-full sm:w-36 sm:hidden">
-                        <Social  />
-                    </div>
                 </div>
-                <div className="hidden mx-auto sm:block">
-                    <img className="object-contain object-center" height="380" width="380" src={`${prefix}/assets/images/coder.svg`} alt="Coder illustration, courtesy https://undraw.co" />
-                </div>
-                <div className="h-40 pl-0.5 w-36 hidden sm:block">
-                    <Social  />
-                </div>
+                <Social />
             </div>
         </div>
     )

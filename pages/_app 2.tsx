@@ -1,7 +1,12 @@
 import React from 'react'
 import '../styles/tailwind.css'
 
-function MyApp({ Component, pageProps }) {
+type Props = {
+    Component: any
+    pageProps: any
+}
+
+function MyApp({ Component, pageProps }: Props) {
     return <Component {...pageProps} />
 }
 
