@@ -1,5 +1,5 @@
 import React from 'react'
-import { Footer, NavBar, Hero, Experience } from 'components/sections'
+import { NavBar, Hero } from 'components/sections'
 
 function HomePage() {
     return <div className="w-screen antialiased app font-lato">
@@ -8,7 +8,7 @@ function HomePage() {
                 <Hero />
             </div>
             {/* <Experience /> */}
-            <Footer />
+            {/* <Footer /> */}
         </div>
     
 }
