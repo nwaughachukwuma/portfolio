@@ -7,7 +7,7 @@ function HomePage() {
                 <NavBar />
                 <Hero />
             </div>
-            <Experience />
+            {/* <Experience /> */}
             <Footer />
         </div>
     
