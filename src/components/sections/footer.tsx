@@ -9,21 +9,24 @@ export default function Footer() {
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <Link
             className="inline-flex h-6 w-6 items-center justify-center rounded-md bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-850"
-            href="#"
-          >
+            href="https://www.linkedin.com/in/cpnwaugha"
+            target='_blank'
+            >
             <LinkedinIcon />
             <span className="sr-only">LinkedIn</span>
           </Link>
           <Link
             className="inline-flex h-6 w-6 items-center justify-center rounded-md bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-850"
-            href="#"
+            href="https://github.com/nwaughachukwuma"
+            target='_blank'
           >
             <Github />
             <span className="sr-only">GitHub</span>
           </Link>
           <Link
             className="inline-flex h-6 w-6 items-center justify-center rounded-md bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-850"
-            href="#"
+            href="https://twitter.com/ChukwumaNwaugha"
+            target='_blank'
           >
             <TwitterIcon width={18} />
             <span className="sr-only">Twitter</span>
