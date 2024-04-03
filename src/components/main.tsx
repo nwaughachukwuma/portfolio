@@ -12,12 +12,13 @@ export default function Component() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
       <header className="px-4 lg:px-6 h-14 flex items-center">
-        <Link className="flex gap-x-4 items-center justify-center" href="#">
+        <Link className="flex gap-x-4 items-center justify-center" href="https://twitter.com/ChukwumaNwaugha" target="_blank">
           <img className="object-contain object-center rounded-md"  width="50" height="50" src="assets/images/dev_avatar.png" alt="Chukwuma Nwaugha Avatar" />
           <h1 className="text-gray-600 font-medium">Chukwuma NWAUGHA</h1>
           <span className="sr-only">Chukwuma Nwaugha</span>
         </Link>
       </header>
+
       <main className="flex-1">
         <section className="w-full py-12 md:py-20">
           <div className="container px-4 md:px-6">
@@ -27,8 +28,13 @@ export default function Component() {
                   Software Product Engineer
                 </h1>
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  I'm a passionate and creative Frontend Developer with a love for crafting beautiful and performant web
-                  experiences.
+                  {/* I'm a passionate and creative Frontend Developer with a love for crafting beautiful and performant web
+                  experiences. */}
+                  Product & Full Stack Engineer. Focused on building delightful AI-powered products for the next billion users. 
+                  {/* <br />
+                  Find my recent posts on <Link className="hover:underline" href="https://medium.com/@c.nwaugha">
+                  medium
+                  </Link> */}
                 </p>
               </div>
             </div>

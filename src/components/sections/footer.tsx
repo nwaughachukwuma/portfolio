@@ -8,7 +8,7 @@ export default function Footer() {
         <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 Chukwuma Nwaugha. All rights reserved.</p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <Link
-            className="inline-flex h-6 w-6 items-center justify-center rounded-md bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-850"
+            className="inline-flex h-6 w-6 items-center justify-center"
             href="https://www.linkedin.com/in/cpnwaugha"
             target='_blank'
             >
@@ -16,7 +16,7 @@ export default function Footer() {
             <span className="sr-only">LinkedIn</span>
           </Link>
           <Link
-            className="inline-flex h-6 w-6 items-center justify-center rounded-md bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-850"
+            className="inline-flex h-6 w-6 items-center justify-center"
             href="https://github.com/nwaughachukwuma"
             target='_blank'
           >
@@ -24,7 +24,7 @@ export default function Footer() {
             <span className="sr-only">GitHub</span>
           </Link>
           <Link
-            className="inline-flex h-6 w-6 items-center justify-center rounded-md bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-850"
+            className="inline-flex h-6 w-6 items-center justify-center"
             href="https://twitter.com/ChukwumaNwaugha"
             target='_blank'
           >
