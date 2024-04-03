@@ -8,14 +8,13 @@ import Link from "next/link"
 import Footer from "./sections/footer"
 import Social from "./sections/social"
 import Image from "next/image"
-import { prefix } from '../utils/prefix';
 
-export default function Component() {
+export default function Main() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
       <header className="px-4 lg:px-6 h-14 flex items-center">
         <Link className="flex gap-x-4 items-center justify-center" href="https://twitter.com/ChukwumaNwaugha" target="_blank">
-          <Image className="object-contain object-center rounded-md"  width="50" height="50" src={`${prefix}/assets/images/dev_avatar.png`} alt="Chukwuma Nwaugha Avatar" />
+          <Image className="object-contain object-center rounded-md"  width="50" height="50" src="/assets/images/dev_avatar.png" alt="Chukwuma Nwaugha Avatar" />
           <h1 className="text-gray-600 font-medium">Chukwuma NWAUGHA</h1>
           <span className="sr-only">Chukwuma Nwaugha</span>
         </Link>
