@@ -8,7 +8,7 @@ export function NavBar() {
             <div className="flex justify-between">
                 <div className="flex items-center justify-center">
                     <a className="m-4" href="/">
-                        <img className="object-contain object-center rounded-md"  width="50" height="50" src={`${prefix}/assets/images/dev_avatar.png`} alt="Dev Avatar" />
+                        <img className="object-contain object-center rounded-md"  width="50" height="50" src={`${prefix}/images/dev_avatar.png`} alt="Dev Avatar" />
                     </a>
                     <h1 className="-mt-2 text-gray-900 text-bold text-opacity-80"><b>Chukwuma NWAUGHA </b></h1>
                 </div>
@@ -35,7 +35,7 @@ export function NavBar() {
                             </li>
                         */}
                         <div className="m-4 sm:hidden">
-                            <img className="object-contain object-center" height="60" width="60" src={`${prefix}/assets/images/coder.svg`} alt="Coder illustration, courtesy https://undraw.co" />
+                            <img className="object-contain object-center" height="60" width="60" src={`${prefix}/images/coder.svg`} alt="Coder illustration, courtesy https://undraw.co" />
                         </div>
                         <li className="hidden text-lg text-white bg-indigo-600 py-7 px-9 text-bold sm:block">
                             <a className="flex items-center justify-center" id="contact-button" href="/portfolio">

@@ -16,7 +16,7 @@ export function Hero() {
                     </div>
                 </div>
                 <div className="hidden mx-auto sm:block">
-                    <img className="object-contain object-center" height="380" width="380" src={`${prefix}/assets/images/coder.svg`} alt="Coder illustration, courtesy https://undraw.co" />
+                    <img className="object-contain object-center" height="380" width="380" src={`${prefix}/images/coder.svg`} alt="Coder illustration, courtesy https://undraw.co" />
                 </div>
                 <div className="h-40 pl-0.5 w-36 hidden sm:block">
                     <Social  />

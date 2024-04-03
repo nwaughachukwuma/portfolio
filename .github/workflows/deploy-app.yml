@@ -4,14 +4,24 @@ on:
     branches: [master]
     tags:
       - "deploy-*"
+
+permissions:
+  contents: write
+
+env:
+  CI: true
+  NEXT_PUBLIC_BASE_PATH: /portfolio
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
       matrix:
         node-version: [18.x]
-    env:
-      NEXT_PUBLIC_BASE_PATH: /portfolio
     steps:
       - uses: actions/checkout@v4
 
@@ -34,7 +44,7 @@ jobs:
         run: touch ./out/.nojekyll
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@4.1.1
+        uses: JamesIves/github-pages-deploy-action@4
         with:
           branch: gh-pages
           folder: out
