@@ -8,10 +8,6 @@ on:
 permissions:
   contents: write
 
-env:
-  CI: true
-  NEXT_PUBLIC_BASE_PATH: /portfolio
-
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -19,6 +15,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      CI: true
+      NEXT_PUBLIC_BASE_PATH: /portfolio
     strategy:
       matrix:
         node-version: [18.x]
