@@ -5,8 +5,8 @@
  */
 import React from "react"
 import Link from "next/link"
-import {LinkedinIcon, Github } from 'lucide-react'
 import Footer from "./sections/footer"
+import Social from "./sections/social"
 
 export default function Component() {
   return (
@@ -31,10 +31,17 @@ export default function Component() {
                   {/* I'm a passionate and creative Frontend Developer with a love for crafting beautiful and performant web
                   experiences. */}
                   Product & Full Stack Engineer. Focused on building delightful AI-powered products for the next billion users. 
-                  {/* <br />
+                  {/* 
                   Find my recent posts on <Link className="hover:underline" href="https://medium.com/@c.nwaugha">
                   medium
                   </Link> */}
+                 
+                </p>
+                <div className="my-4">
+                  <Social />
+                </div>
+                <p className="mt-4 text-gray-500/60 animate-bounce">
+                  [Site rework In Progress]
                 </p>
               </div>
             </div>
@@ -136,21 +143,3 @@ export default function Component() {
   )
 }
 
-function MountainIcon(props: React.SVGProps<SVGSVGElement>) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
-    </svg>
-  )
-}
