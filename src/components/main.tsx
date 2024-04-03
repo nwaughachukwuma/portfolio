@@ -17,6 +17,7 @@ export default function Main() {
         <Link className="flex gap-x-4 items-center justify-center" href="https://twitter.com/ChukwumaNwaugha" target="_blank">
           <Image className="object-contain object-center rounded-md"  width={50} height={50} src={`${prefix}/images/dev_avatar.png`} alt="Chukwuma Nwaugha Avatar" />
           <img className="object-contain object-center rounded-md"  width="50" height="50" src={`${prefix}/images/dev_avatar.png`} alt="Chukwuma Nwaugha Avatar" />
+          <img className="object-contain object-center rounded-md"  width="50" height="50" src="/images/dev_avatar.png" alt="Chukwuma Nwaugha Avatar" />
           <h1 className="text-gray-600 font-medium">Chukwuma NWAUGHA</h1>
           <span className="sr-only">Chukwuma Nwaugha</span>
         </Link>
