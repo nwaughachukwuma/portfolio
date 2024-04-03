@@ -12,9 +12,10 @@ export default function Component() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
       <header className="px-4 lg:px-6 h-14 flex items-center">
-        <Link className="flex items-center justify-center" href="#">
-          <MountainIcon className="h-6 w-6" />
-          <span className="sr-only">Acme Inc</span>
+        <Link className="flex gap-x-4 items-center justify-center" href="#">
+          <img className="object-contain object-center rounded-md"  width="50" height="50" src="assets/images/dev_avatar.png" alt="Chukwuma Nwaugha Avatar" />
+          <h1 className="text-gray-600 font-medium">Chukwuma NWAUGHA</h1>
+          <span className="sr-only">Chukwuma Nwaugha</span>
         </Link>
       </header>
       <main className="flex-1">
