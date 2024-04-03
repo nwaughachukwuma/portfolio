@@ -5,6 +5,8 @@
  */
 import React from "react"
 import Link from "next/link"
+import {LinkedinIcon, Github } from 'lucide-react'
+import Footer from "./sections/footer"
 
 export default function Component() {
   return (
@@ -16,12 +18,12 @@ export default function Component() {
         </Link>
       </header>
       <main className="flex-1">
-        <section className="w-full py-12 md:py-24 lg:py-32">
+        <section className="w-full py-12 md:py-20">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col gap-2 sm:gap-4 lg:gap-4">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                  Staff Software Product Engineer
+                  Software Product Engineer
                 </h1>
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                   I'm a passionate and creative Frontend Developer with a love for crafting beautiful and performant web
@@ -31,7 +33,7 @@ export default function Component() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32">
+        <section className="w-full py-12 md:py-20">
           <div className="container px-4 md:px-6">
             <div className="mx-auto grid max-w-5xl items-start gap-6 lg:grid-cols-2 lg:gap-12">
               <div className="flex flex-col justify-center space-y-4">
@@ -75,7 +77,7 @@ export default function Component() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32">
+        <section className="w-full py-12 md:py-24 lg:py-20">
           <div className="container px-4 md:px-6">
             <div className="mx-auto grid max-w-5xl items-start gap-6 lg:grid-cols-2 lg:gap-12">
               <div className="flex flex-col justify-center space-y-4">
@@ -121,32 +123,8 @@ export default function Component() {
           </div>
         </section>
       </main>
-      <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-        <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 Acme Inc. All rights reserved.</p>
-        <nav className="sm:ml-auto flex gap-4 sm:gap-6">
-          <Link
-            className="inline-flex h-6 w-6 items-center justify-center rounded-md bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-850"
-            href="#"
-          >
-            LinkedIn
-            <span className="sr-only">LinkedIn</span>
-          </Link>
-          <Link
-            className="inline-flex h-6 w-6 items-center justify-center rounded-md bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-850"
-            href="#"
-          >
-            GitHub
-            <span className="sr-only">GitHub</span>
-          </Link>
-          <Link
-            className="inline-flex h-6 w-6 items-center justify-center rounded-md bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-850"
-            href="#"
-          >
-            Twitter
-            <span className="sr-only">Twitter</span>
-          </Link>
-        </nav>
-      </footer>
+      
+      <Footer />
     </div>
   )
 }
