@@ -1,5 +1,4 @@
 import React from 'react'
-import { Main } from 'components/sections'
 
 function HomePage() {
     return (<div className="w-screen antialiased app font-lato">
@@ -9,7 +8,6 @@ function HomePage() {
             </div> */}
             {/* <Experience /> */}
             {/* <Footer /> */}
-                <Main />
         </div>)
     
 }

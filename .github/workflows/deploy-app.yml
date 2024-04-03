@@ -25,6 +25,8 @@ jobs:
       - name: Build project
         run: yarn build
 
+      - run: yarn tsc
+
       - name: Export static files
         run: yarn export
 

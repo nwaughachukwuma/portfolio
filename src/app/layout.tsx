@@ -16,6 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="shortcut icon" href="/favicon.png" />
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></meta>
+      
       <body className={inter.className}>{children}</body>
     </html>
   );
