@@ -1,6 +1,6 @@
 import React from 'react'
 import Social from './social'
-import { prefix } from '../../../utils/prefix';
+import { prefix } from '../../utils/prefix';
 
 export function Hero() {
     return (
