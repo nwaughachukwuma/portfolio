@@ -7,13 +7,14 @@ import React from "react"
 import Link from "next/link"
 import Footer from "./sections/footer"
 import Social from "./sections/social"
+import Image from "next/image"
 
 export default function Component() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
       <header className="px-4 lg:px-6 h-14 flex items-center">
         <Link className="flex gap-x-4 items-center justify-center" href="https://twitter.com/ChukwumaNwaugha" target="_blank">
-          <img className="object-contain object-center rounded-md"  width="50" height="50" src="assets/images/dev_avatar.png" alt="Chukwuma Nwaugha Avatar" />
+          <Image className="object-contain object-center rounded-md"  width="50" height="50" src="/assets/images/dev_avatar.png" alt="Chukwuma Nwaugha Avatar" />
           <h1 className="text-gray-600 font-medium">Chukwuma NWAUGHA</h1>
           <span className="sr-only">Chukwuma Nwaugha</span>
         </Link>
@@ -30,7 +31,7 @@ export default function Component() {
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                   {/* I'm a passionate and creative Frontend Developer with a love for crafting beautiful and performant web
                   experiences. */}
-                  Product & Full Stack Engineer. Focused on building delightful AI-powered products for the next billion users. 
+                  {`Product & Full Stack Engineer. Focused on building delightful AI-powered products for the next billion users.`}
                   {/* 
                   Find my recent posts on <Link className="hover:underline" href="https://medium.com/@c.nwaugha">
                   medium
@@ -69,8 +70,8 @@ export default function Component() {
                 <div className="grid gap-1">
                   <h3 className="text-lg font-bold">Project Two</h3>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
-                    Description of project two. I worked with a great team to bring this project to life and we're
-                    really proud of the result.
+                    {`Description of project two. I worked with a great team to bring this project to life and we're
+                    really proud of the result.`}
                   </p>
                 </div>
                 <div className="grid gap-1">
@@ -98,8 +99,8 @@ export default function Component() {
                 <div className="space-y-2">
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">My Skills</h2>
                   <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                    I'm skilled in a variety of frontend technologies and tools. Here are a few of my areas of
-                    expertise.
+                    {`I'm skilled in a variety of frontend technologies and tools. Here are a few of my areas of
+                    expertise.`}
                   </p>
                 </div>
               </div>
@@ -107,15 +108,15 @@ export default function Component() {
                 <div className="grid gap-1">
                   <h3 className="text-lg font-bold">HTML/CSS</h3>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
-                    I'm a master of the fundamentals. I can write clean, semantic HTML and style it with beautiful,
-                    responsive CSS.
+                    {`I'm a master of the fundamentals. I can write clean, semantic HTML and style it with beautiful,
+                    responsive CSS.`}
                   </p>
                 </div>
                 <div className="grid gap-1">
                   <h3 className="text-lg font-bold">JavaScript</h3>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
-                    I love working with JavaScript to create interactive and dynamic user experiences. I'm comfortable
-                    with frameworks like React and Vue.
+                    {`I love working with JavaScript to create interactive and dynamic user experiences. I'm comfortable
+                    with frameworks like React and Vue.`}
                   </p>
                 </div>
                 <div className="grid gap-1">
