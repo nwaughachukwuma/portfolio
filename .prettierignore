@@ -1,5 +1,7 @@
 node_modules
-.next
 build/
 dist/
+static
 .vscode/templates
+
+yarn.lock
