@@ -21,14 +21,14 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - uses: bahmutov/npm-install@v1
+      
+      - run: yarn tsc
 
       - name: Build project
         run: yarn build
 
-      - run: yarn tsc
-
-      - name: Export static files
-        run: yarn export
+      # - name: Export static files
+      #   run: yarn export
 
       - name: Add .nojekyll file
         run: touch ./out/.nojekyll
