@@ -164,7 +164,7 @@ export default function Main() {
                   </p>
                 </div> */}
 
-                <DescriptionCard title="Prayer and Meditation">
+                <DescriptionCard title="Prayer & Meditation">
                   {`I'm a Christian and Catholic. I love to pray and meditate to keep the words of God close to my heart.`}
                 </DescriptionCard>
 
