@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       CI: true
-      NEXT_PUBLIC_BASE_PATH: /
+      NEXT_PUBLIC_BASE_PATH: ""
     strategy:
       matrix:
         node-version: [18.x]
@@ -30,7 +30,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - uses: bahmutov/npm-install@v1
-      
+
       - run: yarn tsc
 
       - name: Build project
