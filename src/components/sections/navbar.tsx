@@ -1,18 +1,26 @@
-import React from 'react'
-import { prefix } from '../../utils/prefix';
+import React from "react";
+import { prefix } from "../../utils/prefix";
 
 export function NavBar() {
-    return (
-        // <!--header-->
-        <nav className="">
-            <div className="flex justify-between">
-                <div className="flex items-center justify-center">
-                    <a className="m-4" href="/">
-                        <img className="object-contain object-center rounded-md"  width="50" height="50" src={`${prefix}/images/dev_avatar.png`} alt="Dev Avatar" />
-                    </a>
-                    <h1 className="-mt-2 text-gray-900 text-bold text-opacity-80"><b>Chukwuma NWAUGHA </b></h1>
-                </div>
-                {/* <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+  return (
+    // <!--header-->
+    <nav className="">
+      <div className="flex justify-between">
+        <div className="flex items-center justify-center">
+          <a className="m-4" href="/">
+            <img
+              className="object-contain object-center rounded-md"
+              width="50"
+              height="50"
+              src={`${prefix}/images/dev_avatar.png`}
+              alt="Dev Avatar"
+            />
+          </a>
+          <h1 className="-mt-2 text-gray-900 text-bold text-opacity-80">
+            <b>Chukwuma NWAUGHA </b>
+          </h1>
+        </div>
+        {/* <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                     <span className="navbar-toggler-icon">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -22,9 +30,9 @@ export function NavBar() {
                         </svg>
                     </span>
                 </button> */}
-                <div className="navbar-collapse" id="navbarResponsive">
-                    <ul className="m-auto">
-                        {/* <li class="nav-item d-flex justify-content-center align-items-center">
+        <div className="navbar-collapse" id="navbarResponsive">
+          <ul className="m-auto">
+            {/* <li class="nav-item d-flex justify-content-center align-items-center">
                             <a class="active nav-link active"
                             id="home" href="index.html">Home</a>
                             </li>
@@ -34,19 +42,29 @@ export function NavBar() {
                                 href="about.html">About</a>
                             </li>
                         */}
-                        <div className="m-4 sm:hidden">
-                            <img className="object-contain object-center" height="60" width="60" src={`${prefix}/images/coder.svg`} alt="Coder illustration, courtesy https://undraw.co" />
-                        </div>
-                        <li className="hidden text-lg text-white bg-indigo-600 py-7 px-9 text-bold sm:block">
-                            <a className="flex items-center justify-center" id="contact-button" href="/about">
-                                Welcome
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+            <div className="m-4 sm:hidden">
+              <img
+                className="object-contain object-center"
+                height="60"
+                width="60"
+                src={`${prefix}/images/coder.svg`}
+                alt="Coder illustration, courtesy https://undraw.co"
+              />
             </div>
-        </nav>
-    )
+            <li className="hidden text-lg text-white bg-indigo-600 py-7 px-9 text-bold sm:block">
+              <a
+                className="flex items-center justify-center"
+                id="contact-button"
+                href="/"
+              >
+                Welcome
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  );
 }
 
 export default NavBar;
