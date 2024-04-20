@@ -38,7 +38,7 @@ export function NavBar() {
                             <img className="object-contain object-center" height="60" width="60" src={`${prefix}/images/coder.svg`} alt="Coder illustration, courtesy https://undraw.co" />
                         </div>
                         <li className="hidden text-lg text-white bg-indigo-600 py-7 px-9 text-bold sm:block">
-                            <a className="flex items-center justify-center" id="contact-button" href="/portfolio">
+                            <a className="flex items-center justify-center" id="contact-button" href="/">
                                 Welcome
                             </a>
                         </li>
