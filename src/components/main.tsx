@@ -3,20 +3,29 @@
  * @see https://v0.dev/t/ad9FhogGAQB
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
-import React from "react"
-import Link from "next/link"
-import Footer from "./sections/footer"
-import Social from "./sections/social"
-import Image from "next/image"
-import {prefix} from "../utils/prefix"
-import {DescriptionCard} from "./DescriptionCard"
+import React from "react";
+import Link from "next/link";
+import Footer from "./sections/footer";
+import Social from "./sections/social";
+import { prefix } from "../utils/prefix";
+import { DescriptionCard } from "./DescriptionCard";
 
 export default function Main() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
       <header className="px-4 lg:px-6 h-14 flex items-center">
-        <Link className="flex gap-x-4 items-center justify-center" href="https://twitter.com/ChukwumaNwaugha" target="_blank">
-          <img className="object-contain object-center rounded-md"  width="50" height="50" src={`${prefix}/images/dev_avatar.png`} alt="Chukwuma Nwaugha Avatar" />
+        <Link
+          className="flex gap-x-4 items-center justify-center"
+          href="https://twitter.com/ChukwumaNwaugha"
+          target="_blank"
+        >
+          <img
+            className="object-contain object-center rounded-md"
+            width="50"
+            height="50"
+            src={`${prefix}/images/dev_avatar.png`}
+            alt="Chukwuma Nwaugha Avatar"
+          />
           <h1 className="text-gray-600 font-medium">Chukwuma NWAUGHA</h1>
           <span className="sr-only">Chukwuma Nwaugha</span>
         </Link>
@@ -33,12 +42,11 @@ export default function Main() {
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                   {/* I'm a passionate and creative Frontend Developer with a love for crafting beautiful and performant web
                   experiences. */}
-                  {`Product & Full Stack Engineer. Focused on building delightful AI-powered products for the next billion users.`}
+                  {`Product & Full Stack Engineer. Focused on building delightful AI-powered apps for the next billion users.`}
                   {/* 
                   Find my recent posts on <Link className="hover:underline" href="https://medium.com/@c.nwaugha">
                   medium
                   </Link> */}
-                 
                 </p>
                 <div className="my-4">
                   <Social />
@@ -55,15 +63,16 @@ export default function Main() {
             <div className="mx-auto grid max-w-5xl items-start gap-6 lg:grid-cols-2 lg:gap-12">
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
-                  <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">My Projects</h2>
+                  <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                    My Projects
+                  </h2>
                   <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                     Recent ventures - click on the link to learn more.
                   </p>
                 </div>
               </div>
               {/* <div className="grid gap-4 min-[400px]:grid-cols-2 lg:order-last"> */}
-              <div className="grid gap-4 md:gapy-4 gap-y-6 grid-cols-1 md:grid-cols-2 lg:order-last">
-               
+              <div className="grid gap-4 md:gap-y-4 place-items-start gap-y-6 grid-cols-1 md:grid-cols-2 lg:order-last">
                 {/* <div className="grid gap-1">
                   <h3 className="text-lg font-bold">VeedoAI</h3>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
@@ -71,10 +80,13 @@ export default function Main() {
                   </p>
                 </div> */}
 
-                <DescriptionCard title="VeedoAI" role="Founder and Product Engineer" link="https://veedo.ai">
-                  {`AI-powered platform providing deep insights for video content using cutting-edge GenAI and LLMs`}
+                <DescriptionCard
+                  title="VeedoAI"
+                  role="Founder and Product Engineer"
+                  link="https://veedo.ai"
+                >
+                  {`AI-powered insights for video content`}
                 </DescriptionCard>
-
 
                 {/* <div className="grid gap-1">
                   <h3 className="text-lg font-bold">Project Two</h3>
@@ -84,10 +96,13 @@ export default function Main() {
                   </p>
                 </div> */}
 
-                <DescriptionCard title="Bible Links" role="Creator; AI Engineer" link="https://bible-links.vercel.app">
-                  {`Bible study companion providing multiple angles to the scriptures, powered by AI`}
+                <DescriptionCard
+                  title="Bible Links"
+                  role="Creator; AI Engineer"
+                  link="https://bible-links.vercel.app"
+                >
+                  {`AI-driven bible study guide and companion`}
                 </DescriptionCard>
-
 
                 {/* <div className="grid gap-1">
                   <h3 className="text-lg font-bold">Project Three</h3>
@@ -97,10 +112,13 @@ export default function Main() {
                   </p>
                 </div> */}
 
-                <DescriptionCard title="Cayalx" role="Founder and Product Engineer" link="https://cayalx.com">
-                  {`Solving the bottleneck with current car hire and ride-share by putting riders & drivers in total control of their experience.`}
+                <DescriptionCard
+                  title="Cayalx"
+                  role="Product Engineer"
+                  link="https://cayalx.com"
+                >
+                  {`Car hire and ride-share service that puts riders & drivers in control of their experience`}
                 </DescriptionCard>
-
 
                 {/* <div className="grid gap-1">
                   <h3 className="text-lg font-bold">Project Four</h3>
@@ -110,8 +128,20 @@ export default function Main() {
                   </p>
                 </div> */}
 
-                <DescriptionCard title="Goldmine" role="Creator" link="https://goldmine-ai.vercel.app">
-                  {`Scrape the web and deliver current & relevant news, newsletters and articles all powered by AI.`}
+                <DescriptionCard
+                  title="Goldmine"
+                  role="Creator"
+                  link="https://goldmine-ai.vercel.app"
+                >
+                  {`Relevant daily news and newsletters, adapated AI`}
+                </DescriptionCard>
+
+                <DescriptionCard
+                  title="Ex: Latitude+Lumiere"
+                  role="Staff Software Engineer"
+                  link="https://latd.com"
+                >
+                  {`AI-propelled viewer feedback, advanced analytics and human-generated intelligence company`}
                 </DescriptionCard>
               </div>
             </div>
@@ -122,14 +152,16 @@ export default function Main() {
             <div className="mx-auto grid max-w-5xl items-start gap-6 lg:grid-cols-2 lg:gap-12">
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
-                  <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Hobbies and Interests</h2>
+                  <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                    Hobbies and Interests
+                  </h2>
                   <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                     {`Things I do when I'm not building or experimenting with new technologies.`}
                   </p>
                 </div>
               </div>
               {/* <div className="grid gap-4 min-[400px]:grid-cols-2 lg:order-last"> */}
-              <div className="grid gap-4 md:gapy-4 gap-y-6 grid-cols-1 md:grid-cols-2 lg:order-last">
+              <div className="grid gap-4 md:gapy-4 place-items-start gap-y-6 grid-cols-1 md:grid-cols-2 lg:order-last">
                 {/* <div className="grid gap-1">
                   <h3 className="text-lg font-bold">HTML/CSS</h3>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
@@ -138,11 +170,13 @@ export default function Main() {
                   </p>
                 </div> */}
 
-                <DescriptionCard title="Technical Articles"  link="https://medium.com/@c.nwaugha">
+                <DescriptionCard
+                  title="Technical Articles"
+                  link="https://medium.com/@c.nwaugha"
+                >
                   {`I love to share my knowledge and experiences with others. You can find my posts & articles on Medium and Notion`}
                 </DescriptionCard>
 
-                
                 {/* <div className="grid gap-1">
                   <h3 className="text-lg font-bold">JavaScript</h3>
                   <p className="text-sm text-gray-500 dark:text-gray-400">
@@ -152,9 +186,8 @@ export default function Main() {
                 </div> */}
 
                 <DescriptionCard title="Hiking">
-                  {`I love to hike and explore outdoors. I find it's a great way to clear my mind and get some exercise.`}
+                  {`I love to hike and explore the outdoors. I find it's a great way to clear my mind and get some exercise.`}
                 </DescriptionCard>
-
 
                 {/* <div className="grid gap-1">
                   <h3 className="text-lg font-bold">Accessibility</h3>
@@ -165,7 +198,7 @@ export default function Main() {
                 </div> */}
 
                 <DescriptionCard title="Prayer & Meditation">
-                  {`I'm a Christian and Catholic. I love to pray and meditate to keep the words of God close to my heart.`}
+                  {`I'm a Christian and Catholic. I love to pray and meditate to keep God's words close to mind.`}
                 </DescriptionCard>
 
                 {/* <div className="grid gap-1">
@@ -180,9 +213,8 @@ export default function Main() {
           </div>
         </section>
       </main>
-      
+
       <Footer />
     </div>
-  )
+  );
 }
-
