@@ -88,13 +88,13 @@ export default function Main() {
                   {`AI-powered insights for video content`}
                 </DescriptionCard>
 
-                {/* <div className="grid gap-1">
-                  <h3 className="text-lg font-bold">Project Two</h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">
-                    {`Description of project two. I worked with a great team to bring this project to life and we're
-                    really proud of the result.`}
-                  </p>
-                </div> */}
+                <DescriptionCard
+                  title="Guekn"
+                  role="Creator"
+                  link="https://guekn.com"
+                >
+                  {`Create stunning AI generated images in just a few clicks`}
+                </DescriptionCard>
 
                 <DescriptionCard
                   title="Bible Links"
@@ -109,22 +109,6 @@ export default function Main() {
                   <p className="text-sm text-gray-500 dark:text-gray-400">
                     Description of project three. This project allowed me to experiment with some new technologies and I
                     learned a lot in the process.
-                  </p>
-                </div> */}
-
-                <DescriptionCard
-                  title="Cayalx"
-                  role="Product Engineer"
-                  link="https://cayalx.com"
-                >
-                  {`Car hire and ride-share service that puts riders & drivers in control of their experience`}
-                </DescriptionCard>
-
-                {/* <div className="grid gap-1">
-                  <h3 className="text-lg font-bold">Project Four</h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">
-                    Description of project four. I really enjoyed working on this project and I think it shows in the
-                    final result.
                   </p>
                 </div> */}
 
@@ -145,11 +129,11 @@ export default function Main() {
                 </DescriptionCard>
 
                 <DescriptionCard
-                  title="Guekn"
-                  role="Creator"
-                  link="https://guekn.com"
+                  title="Cayalx"
+                  role="Product Engineer"
+                  link="https://cayalx.com"
                 >
-                  {`Create stunning AI generated images in just a few clicks`}
+                  {`Car hire and ride-share service that puts riders & drivers in control of their experience`}
                 </DescriptionCard>
               </div>
             </div>
