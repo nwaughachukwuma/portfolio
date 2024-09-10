@@ -143,6 +143,14 @@ export default function Main() {
                 >
                   {`AI-propelled viewer feedback, advanced analytics and human-generated intelligence company`}
                 </DescriptionCard>
+
+                <DescriptionCard
+                  title="Guekn"
+                  role="Creator"
+                  link="https://guekn.com"
+                >
+                  {`Create stunning AI generated images in just a few clicks`}
+                </DescriptionCard>
               </div>
             </div>
           </div>
